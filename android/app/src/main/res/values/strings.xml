@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">nuxt3-android</string>
+    <string name="title_activity_main">nuxt3-android</string>
+    <string name="package_name">dev.patogordo.nuxt3</string>
+    <string name="custom_url_scheme">dev.patogordo.nuxt3</string>
+</resources>

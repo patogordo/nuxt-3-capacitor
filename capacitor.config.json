@@ -1,0 +1,8 @@
+{
+  "appId": "dev.patogordo.nuxt3",
+  "appName": "nuxt3-android",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
