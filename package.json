@@ -7,7 +7,10 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "sync": "yarn generate && yarn cap sync",
+    "open:android": "yarn cap open android",
+    "android": "yarn cap run android"
   },
   "dependencies": {
     "nuxt": "^3.10.3",
@@ -21,3 +24,4 @@
     "@capacitor/ios": "^5.7.2"
   }
 }
+

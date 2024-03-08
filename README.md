@@ -38,38 +38,51 @@ yarn dev
 bun run dev
 ```
 
-## Production
+## Sync
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
+Make nuxt and Capacitor sync
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+yarn sync
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Open Android app
+
+Open app in Android Studio, to run it
+
+```bash
+yarn open:android
+```
+
+## Run Android app
+
+Run the app in a Connected Android Device/Emulator
+
+```bash
+yarn android
+```
+
+## Android in Development
+
+Open android in Development mode
+
+Add the lines below to run the application in Development
+
+```json
+{
+  "appId": "dev.patogordo.nuxt3",
+  "appName": "nuxt3-android",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "http://192.168.1.15:3000",
+    "cleartext": true
+  }
+}
+```
+
+Also run the nuxt development server with the command below
+
+```bash
+yarn dev
+```
