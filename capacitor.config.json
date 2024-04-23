@@ -2,9 +2,6 @@
   "appId": "dev.patogordo.nuxt3",
   "appName": "nuxt3-android",
   "webDir": "dist",
-  "bundledWebRuntime": false,
-  "server": {
-    "url": "http://192.168.1.15:3000",
-    "cleartext": true
-  }
+  "bundledWebRuntime": false
 }
+

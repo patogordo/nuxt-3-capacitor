@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "770542445649",
+    "project_id": "fir-authorization-e441f",
+    "storage_bucket": "fir-authorization-e441f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770542445649:android:188cd5d6385e13e0f98470",
+        "android_client_info": {
+          "package_name": "dev.patogordo.nuxt3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770542445649-qnnh0b2aiushfl0kdduqghssrv5vrsrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY3szvvAkQS44IR2bm9OXvpXQaq5UA_N0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770542445649-qnnh0b2aiushfl0kdduqghssrv5vrsrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

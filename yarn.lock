@@ -310,6 +310,11 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
+"@capacitor-community/fcm@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@capacitor-community/fcm/-/fcm-5.0.3.tgz#8194a2cb61b4f5445f7fbed971ee072d0ece7a86"
+  integrity sha512-FzR7LoK2oDUjYgKpxgczOlQacLEBZtmtjntAmP0t7ZRcADiYr51hMSBm+M1dUXXUBVMpz+bx33YUa2p9ALaPAQ==
+
 "@capacitor/android@^5.7.2":
   version "5.7.2"
   resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-5.7.2.tgz#a6eed6398e62aae3b87df3785bf3821309d8e327"
@@ -349,6 +354,11 @@
   version "5.7.2"
   resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-5.7.2.tgz#1d68001bca21c12520fc23bcad45af5730193a78"
   integrity sha512-msh+Kqjv/MyVCrSH0zVtwxptXnsgky4FENUq+Xdaa1pqEglmpHlUKod1Jf7qhfAhTLhHPyokOZMvaIyTtoSwCA==
+
+"@capacitor/push-notifications@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/push-notifications/-/push-notifications-6.0.0.tgz#f577505fabb175d419d4f7241f3ee0e57f3f20a7"
+  integrity sha512-VTUO6OCX0rvKSpEsI9wq8TV1ntmdn/ZpsbH4bvmjlrYAG4kclgKBP9lm+Fw+GqzjyE1lIpCQFj2avpbQ03Ni0g==
 
 "@cloudflare/kv-asset-handler@^0.3.1":
   version "0.3.1"
